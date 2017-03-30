@@ -20,9 +20,9 @@ public class CalculadoraJOptionPane {
         double contador=1,resultado=0;
         while(contador!=0){
             
-            int primeirooperando = Integer.parseInt(JOptionPane.showInputDialog("Insira o primeiro Numero!"));
+            int primeirooperando = Integer.parseInt(JOptionPane.showInputDialog("Insira o primeiro numero!"));
        
-            int segundooperando= Integer.parseInt(JOptionPane.showInputDialog("Insira o segundo Numero!"));
+            int segundooperando= Integer.parseInt(JOptionPane.showInputDialog("Insira o segundo numero!"));
         
             String operador= JOptionPane.showInputDialog("Insira o operador!");
        
